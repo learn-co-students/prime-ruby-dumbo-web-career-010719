@@ -1,6 +1,7 @@
 # Add  code here!
 def prime?(number)
   number = number.abs
+  
   if number == 2 or number == 3
     return true
   elsif number == 1 or number == 0
